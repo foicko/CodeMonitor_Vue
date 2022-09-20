@@ -9,7 +9,6 @@ Projects
             </tr>
             <tr v-for="item in ref_ls" :key="item.id">
                 <td>{{ item.name }}</td>
-                <!-- <td>{{ item.url }}</td> -->
                 <td>null</td>
             </tr>
         </table>

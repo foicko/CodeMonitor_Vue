@@ -41,9 +41,9 @@ const option = ref({
     },
     series: [
         {
-            name: 'Traffic Sources',
+            name: 'Coding Language',
             type: 'pie',
-            radius: '55%',
+            radius: '50%',
             center: ['50%', '60%'],
             data: key.data,
             emphasis: {
@@ -62,15 +62,15 @@ const option = ref({
 <style scoped>
 .chart {
     height: 360px;
-    width: 540px;
+    width: 400px;
+    margin: auto;
 }
-
 body {
     margin: 0;
 }
 div{
     border-radius: 20px;
-    background-color: #eeeeee;
+    /* background-color: #eeeeee; */
     margin: 20px;
 }
 </style>

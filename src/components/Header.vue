@@ -10,5 +10,7 @@
 <style scoped>
 h2{
     text-align: right;
+    color: black;
+    font-size: 30px;
 }
 </style>

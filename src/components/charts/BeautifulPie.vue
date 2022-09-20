@@ -44,9 +44,9 @@ const option = ref({
     },
     series: [
         {
-            name: 'Nightingale Chart',
+            name: 'Coding Language',
             type: 'pie',
-            radius: [50, 250],
+            radius: [20, 100],
             center: ['50%', '50%'],
             roseType: 'area',
             itemStyle: {
@@ -63,6 +63,7 @@ const option = ref({
 .chart {
     height: 600px;
     width: 720px;
+    margin: auto;
 }
 
 body {
@@ -70,8 +71,7 @@ body {
 }
 div{
     margin: 20px;
-    background-color: #eeeeee;
-
+    /* background-color: #eeeeee; */
     border-radius: 20px;
 
 }

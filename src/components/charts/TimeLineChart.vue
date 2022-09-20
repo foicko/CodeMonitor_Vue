@@ -38,7 +38,8 @@ const option = ref({
         data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
     },
     yAxis: {
-        type: 'value'
+        type: 'value',
+        // data:[1,2,3,4,5]
     },
     series: [
         {
@@ -55,12 +56,13 @@ const option = ref({
 .chart {
     height: 360px;
     width: 540px;
+    margin: auto;
 }
 body {
     margin: 0;
 }
 div{
-    background-color: #eeeeee;
+    /* background-color: #eeeeee; */
     border-radius: 20px;
     margin: 20px;
 }
