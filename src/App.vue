@@ -6,6 +6,7 @@ import Projects from './components/Projects.vue';
 import Goals from './components/Goals.vue';
 import About from './components/About.vue';
 import Header from './components/Header.vue';
+import Token from './components/Token.vue'
 </script>
 
 <template>
@@ -14,6 +15,7 @@ import Header from './components/Header.vue';
     <el-tab-pane label="Dashboard"><Dashboard></Dashboard></el-tab-pane>
     <el-tab-pane label="Projects"><Projects></Projects></el-tab-pane>
     <el-tab-pane label="Goals"><Goals></Goals></el-tab-pane>
+    <el-tab-pane label="Token"><Token></Token></el-tab-pane>
     <el-tab-pane label="About"><About></About></el-tab-pane>
   </el-tabs>
 </template>

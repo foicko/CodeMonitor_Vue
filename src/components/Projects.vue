@@ -36,5 +36,7 @@ onMounted(() => {
 });
 </script>
 <style scoped>
-
+div{
+    color: black;
+}
 </style>
